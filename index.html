@@ -748,49 +748,86 @@
                     <div class="branches-a">
                         <h3>we have branches all over the world</h3>
                         <p>
-                            the gradual accumulatino of information about atomic
+                            The gradual accumulatino of information about atomic
                             and small-scale behaviour during the first quarter
                             of the 20th century, which gave some indications
                             about how small things do behave, produced an
-                            increasing confusion which was Heisenberg, and Born
+                            increasing confusion which was Heisenberg, and Born.
                         </p>
                     </div>
                     <div class="branches-b">
                         <img src="images/pngwing 1.png" alt="world-map" />
                     </div>
                 </div>
-                <div class="contact">
-                    <div class="appointment">
-                        <div class="image"></div>
-                        <div class="form">
-                            <form action="#">
-                                <label for="name" aria-required="true"></label>
-                                <input
-                                    type="text"
-                                    name="name"
-                                    aria-required="true"
-                                />
-                                <label for="email" aria-required="true"></label>
-                                <input
-                                    type="email"
-                                    name="email"
-                                    aria-required="true"
-                                />
-                            </form>
-                        </div>
+            </section>
+
+            <!-- contact -->
+            <section id="contact">
+                <div class="appointment">
+                    <div class="image">
+                        <!-- <img src="images/contact-cover.2.png" alt="" /> -->
                     </div>
-                    <div class="call">
-                        <div class="call-a">
-                            <h3>insurance agency for your business</h3>
-                            <p>
-                                Lorem ipsum dolor sit amet consectetur
-                                adipisicing.
-                            </p>
-                        </div>
-                        <div class="call-b">
-                            <button class="call">contact us</button>
-                        </div>
+                    <div class="booking-form">
+                        <form action="#">
+                            <h3>book appointment</h3>
+                            <label for="name" aria-required="true">
+                                Name *
+                            </label>
+                            <input
+                                type="text"
+                                name="name"
+                                id="name"
+                                required
+                                placeholder="Full Name"
+                            />
+
+                            <label for="email" aria-required="true">
+                                Email address *
+                            </label>
+                            <input
+                                type="email"
+                                name="email"
+                                id="email"
+                                required
+                                placeholder="example@gmail.com"
+                            />
+
+                            <label for="select"> Department * </label>
+                            <select name="select" id="select">
+                                <option value="finance">finance</option>
+                                <option value="medical">medical</option>
+                                <option value="civil">civil</option>
+                                <option value="mechanical">mechanical</option>
+                                <option value="electrical">electrical</option>
+                            </select>
+
+                            <label for="select"> Time * </label>
+                            <select name="select" id="select">
+                                <option value="4">4.00 Available</option>
+                                <option value="11">11.00 Available</option>
+                                <option value="10">10.00 Available</option>
+                                <option value="8">8.00 Available</option>
+                                <option value="2">2.00 Available</option>
+                            </select>
+
+                            <input
+                                type="submit"
+                                value="Book Appointment"
+                                class="button"
+                            />
+                        </form>
                     </div>
+                </div>
+            </section>
+
+            <!-- call section -->
+            <section id="call">
+                <div class="call-a">
+                    <h3>insurance agency for your business</h3>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing.</p>
+                </div>
+                <div class="call-b">
+                    <button class="call">contact us</button>
                 </div>
             </section>
 

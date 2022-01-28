@@ -433,6 +433,7 @@ header .links .buttons .member span {
     display: flex;
     align-items: center;
     justify-content: center;
+    padding-bottom: 5%;
 }
 
 #industry .pricing-cards .pricing-card {
@@ -531,10 +532,138 @@ header .links .buttons .member span {
     color: #fff;
 }
 
-/* #industry .pricing-cards .standard .buy {
-    margin-bottom: 15%;
-} */
-
 #industry .pricing-cards .standard li:nth-child(5) > svg {
     color: #bdbdbd;
+}
+
+/*-------------- booking section styling ---------------*/
+#booking {
+    padding: 5% 15%;
+    background-color: #252b42;
+    height: 70vh;
+}
+
+#booking .branches {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#booking .branches .branches-a {
+    width: 50%;
+    padding-right: 10%;
+}
+
+#booking .branches .branches-a h3 {
+    color: #fff;
+    text-transform: capitalize;
+    font-size: 2vw;
+    font-weight: 700;
+    line-height: 3vw;
+}
+
+#booking .branches .branches-a p {
+    color: #fff;
+    padding: 2% 0;
+    font-weight: 500;
+    letter-spacing: 0.01vw;
+    font-size: 0.8vw;
+    line-height: 1.2vw;
+}
+
+#booking .branches .branches-b {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#booking .branches .branches-b img {
+    width: 30vw;
+}
+
+/*-------------- contact section styling ---------------*/
+#contact {
+    padding: 5% 15%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    height: 50vh;
+}
+
+#contact .appointment {
+    background-image: url("images/contact-cover.2.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    display: flex;
+    width: 90%;
+    justify-content: center;
+    background-color: #fff;
+    margin-top: 5%;
+    padding: 5% 0;
+}
+
+#contact .appointment .image {
+    width: 40%;
+}
+
+#contact .appointment .image img {
+    width: 22vw;
+}
+
+#contact .appointment .booking-form {
+    text-align: center;
+    background-color: #fff;
+    width: 60%;
+}
+
+#contact .appointment .booking-form h3 {
+    text-transform: capitalize;
+    text-align: center;
+    padding-bottom: 5%;
+    font-size: 1.5vw;
+}
+
+#contact .appointment .booking-form form {
+    font-family: "Montserrat", sans-serif;
+    padding-right: 15%;
+    text-align: left;
+    display: flex;
+    flex-direction: column;
+}
+
+#contact .appointment .booking-form form label {
+    padding: 3% 0 2% 0;
+    font-weight: 500;
+    font-size: 0.9vw;
+}
+#contact .appointment .booking-form form input {
+    font-family: "Montserrat", sans-serif;
+    padding: 3%;
+    border: solid 0.1vw rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    border-radius: 0.5vw;
+    outline: none;
+    font-size: 0.7vw;
+}
+
+#contact .appointment .booking-form form select {
+    font-family: "Montserrat", sans-serif;
+    padding: 3%;
+    border: solid 0.1vw rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    border-radius: 0.5vw;
+    outline: none;
+    color: rgba(0, 0, 0, 0.5);
+    font-size: 0.7vw;
+}
+
+#contact .appointment .booking-form form .button {
+    cursor: pointer;
+    margin-top: 9%;
+    background-color: #23a6f0;
+    color: #fff;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
 }
