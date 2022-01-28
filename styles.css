@@ -123,6 +123,10 @@ header .links .buttons .member span {
 
 .banner {
     padding: 0;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
 }
 
 .banner h1 {
@@ -237,16 +241,15 @@ header .links .buttons .member span {
 
 /*-------------- mission section styling ---------------*/
 #mission {
-    padding: 5% 15%;
+    padding: 10% 15%;
     width: 100%;
     height: auto;
     display: flex;
     align-items: center;
-    justify-content: center;
+    justify-content: space-between;
 }
 
 #mission div {
-    margin: 0 1%;
     text-align: center;
     width: 30%;
     padding: 3%;
@@ -260,13 +263,153 @@ header .links .buttons .member span {
 #mission div h3 {
     text-transform: capitalize;
     padding: 5% 0;
+    font-size: 1vw;
 }
 
 #mission div p {
     color: #6f6f6f;
     font-weight: 500;
-    letter-spacing: 0.05vw;
+    letter-spacing: 0.04vw;
     font-size: 0.9vw;
 }
 
 /*-------------- industry section styling ---------------*/
+#industry {
+    padding: 5% 15%;
+    text-align: center;
+    background-color: #fafafa;
+}
+
+#industry .intro {
+    padding-bottom: 5%;
+}
+
+#industry .intro h3 {
+    text-transform: capitalize;
+    font-size: 3vw;
+}
+
+/* intro mini-section */
+#industry .intro p {
+    padding: 1% 25%;
+    color: #6f6f6f;
+    font-weight: 500;
+    letter-spacing: 0.05vw;
+    font-size: 0.9vw;
+    line-height: 1.5vw;
+}
+
+/* ratings mini-section*/
+#industry .ratings {
+    padding-bottom: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#industry .ratings .rating {
+    background-color: #fff;
+    width: 30%;
+    padding: 4% 3%;
+    border-radius: 0.5vw;
+    border: solid 0.1vw rgba(0, 0, 0, 0.2);
+}
+
+#industry .ratings .rating img {
+    width: 9vw;
+}
+
+#industry .ratings .rating p {
+    padding: 7% 5%;
+    color: #6f6f6f;
+    font-weight: 500;
+    letter-spacing: 0.03vw;
+    font-size: 0.8vw;
+    line-height: 1.2vw;
+}
+
+#industry .ratings .rating .stars {
+    padding: 2% 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #f3cd03;
+}
+
+/* clients mini-section */
+#industry .clients {
+    padding: 4% 0 8% 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#industry .clients img {
+    width: 6vw;
+}
+
+#industry .clients img:nth-child(2),
+#industry .clients img:nth-child(3) {
+    width: 5vw;
+}
+
+#industry .clients img:nth-child(5),
+#industry .clients img:nth-child(6) {
+    width: 4vw;
+}
+
+/* subscription mini-section */
+#industry .subscription {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2.5% 5%;
+    background-image: linear-gradient(90deg, #024688, #d21589);
+}
+
+#industry .subscription h3 {
+    width: 30%;
+    text-align: left;
+    text-transform: capitalize;
+    color: #fff;
+    font-size: 1.5vw;
+    line-height: 2vw;
+}
+
+#industry .subscription form {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 60%;
+}
+
+#industry .subscription form .email {
+    width: 50%;
+    font-weight: 500;
+    font-size: 0.8vw;
+    font-family: "Montserrat", sans-serif;
+    border: none;
+    outline: none;
+    border-radius: 0.3vw 0 0 0.3vw;
+    padding: 2.8% 6%;
+}
+
+#industry .subscription form .submit {
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    font-size: 0.8vw;
+    width: 20%;
+    background-color: #23a6f0;
+    color: #fff;
+    border: none;
+    outline: none;
+    border-radius: 0 0.3vw 0.3vw 0;
+    padding: 2.8% 6%;
+}
+
+#industry .pricing-info {
+    padding: 15% 0;
+}
