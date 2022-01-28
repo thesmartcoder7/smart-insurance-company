@@ -597,7 +597,7 @@ header .links .buttons .member span {
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
-    width: 90%;
+    width: 80%;
     justify-content: center;
     background-color: #fff;
     margin-top: 5%;
