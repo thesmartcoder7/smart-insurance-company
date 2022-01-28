@@ -6,7 +6,10 @@
 }
 
 /* universal styles */
-body,
+body {
+    background-color: #fafafa;
+    font-family: "Montserrat", sans-serif;
+}
 h1,
 h2,
 h3,
@@ -76,6 +79,9 @@ header .links nav {
 
 header .links .buttons {
     width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
 }
 
 header .links nav ul li {
@@ -247,6 +253,7 @@ header .links .buttons .member span {
     display: flex;
     align-items: center;
     justify-content: space-between;
+    background-color: #fff;
 }
 
 #mission div {
@@ -583,7 +590,7 @@ header .links .buttons .member span {
 
 /*-------------- contact section styling ---------------*/
 #contact {
-    padding: 5% 15%;
+    padding: 5% 15% 0 15%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -666,4 +673,52 @@ header .links .buttons .member span {
     color: #fff;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
+}
+
+/*-------------- call section styling ---------------*/
+#call {
+    padding: 10% 15%;
+    background-color: #fafafa;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#call .call-a {
+    width: 70%;
+}
+
+#call .call-a h3 {
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 2vw;
+}
+
+#call .call-a p {
+    padding: 2% 0;
+    color: #6f6f6f;
+    font-weight: 500;
+    letter-spacing: 0.03vw;
+    font-size: 1vw;
+    line-height: 1.2vw;
+}
+
+#call .call-b {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    width: 30%;
+}
+
+#call .call-b .call {
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    border-radius: 0.4vw;
+    outline: none;
+    padding: 5% 10%;
+    background-color: #23a6f0;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 0.9vw;
 }
