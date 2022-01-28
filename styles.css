@@ -185,9 +185,10 @@ header .links .buttons .member span {
 
 .banner .floating-cards {
     display: flex;
-    margin-top: 10%;
+    width: 100%;
     align-items: center;
     justify-content: space-between;
+    margin-top: 10%;
 }
 
 .banner .floating-cards div {
@@ -233,3 +234,39 @@ header .links .buttons .member span {
     height: 25vh;
     background-color: #fafafa;
 }
+
+/*-------------- mission section styling ---------------*/
+#mission {
+    padding: 5% 15%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#mission div {
+    margin: 0 1%;
+    text-align: center;
+    width: 30%;
+    padding: 3%;
+}
+
+#mission div svg {
+    color: #23a6f0;
+    width: 4vw;
+}
+
+#mission div h3 {
+    text-transform: capitalize;
+    padding: 5% 0;
+}
+
+#mission div p {
+    color: #6f6f6f;
+    font-weight: 500;
+    letter-spacing: 0.05vw;
+    font-size: 0.9vw;
+}
+
+/*-------------- industry section styling ---------------*/
