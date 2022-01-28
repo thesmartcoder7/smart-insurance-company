@@ -538,9 +538,8 @@ header .links .buttons .member span {
 
 /*-------------- booking section styling ---------------*/
 #booking {
-    padding: 5% 15%;
+    padding: 5% 15% 25% 15%;
     background-color: #252b42;
-    height: 70vh;
 }
 
 #booking .branches {
@@ -589,7 +588,8 @@ header .links .buttons .member span {
     flex-direction: column;
     align-items: center;
     justify-content: flex-end;
-    height: 50vh;
+    position: relative;
+    margin-top: -25%;
 }
 
 #contact .appointment {
