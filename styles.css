@@ -410,6 +410,131 @@ header .links .buttons .member span {
     padding: 2.8% 6%;
 }
 
+/* pricing mini-section */
 #industry .pricing-info {
-    padding: 15% 0;
+    padding: 15% 0 10% 0;
+}
+
+#industry .pricing-info h3 {
+    text-transform: capitalize;
+    font-size: 2.2vw;
+}
+
+#industry .pricing-info p {
+    padding: 2% 30%;
+    color: #6f6f6f;
+    font-weight: 500;
+    letter-spacing: 0.03vw;
+    font-size: 0.8vw;
+    line-height: 1.2vw;
+}
+
+#industry .pricing-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#industry .pricing-cards .pricing-card {
+    border: solid 0.15vw #23a6f0;
+    border-radius: 0.5vw;
+    width: 30%;
+    padding: 4%;
+    margin: 0 0.2%;
+}
+
+#industry .pricing-cards .pricing-card .heading {
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.7vw;
+}
+
+#industry .pricing-cards .pricing-card p {
+    padding: 15%;
+    color: #6f6f6f;
+    font-weight: 500;
+    letter-spacing: 0.03vw;
+    font-size: 0.8vw;
+    line-height: 1.2vw;
+}
+
+#industry .pricing-cards .pricing-card .price {
+    text-transform: capitalize;
+    font-weight: 600;
+    font-size: 2.5vw;
+    color: #23a6f0;
+    position: relative;
+}
+
+#industry .pricing-cards .pricing-card .price .dollars {
+    font-size: 1.3vw;
+    position: absolute;
+    margin-top: -1%;
+}
+
+#industry .pricing-cards .pricing-card .price .month {
+    font-weight: 500;
+    font-size: 0.8vw;
+    color: #8ec2f2;
+}
+
+#industry .pricing-cards .pricing-card ul {
+    text-align: left;
+    padding: 10% 0;
+}
+
+#industry .pricing-cards .pricing-card ul li {
+    display: flex;
+    list-style-type: none;
+    margin: 5% 0;
+}
+
+#industry .pricing-cards .pricing-card ul li svg {
+    width: 2vw;
+    height: 2vw;
+    color: #2dc071;
+}
+
+#industry .pricing-cards .pricing-card ul li p {
+    padding: 2% 0 2% 5%;
+    color: #000;
+}
+
+#industry .pricing-cards .pricing-card .buy {
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    border-radius: 0.3vw;
+    outline: none;
+    padding: 4% 7%;
+    background-color: #23a6f0;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 0.7vw;
+}
+
+/* free plan */
+#industry .pricing-cards .free li:nth-child(4) > svg,
+#industry .pricing-cards .free li:nth-child(5) > svg {
+    color: #bdbdbd;
+}
+
+/* standard plan */
+#industry .pricing-cards .standard {
+    padding: 7% 4%;
+    background-color: #252b42;
+}
+
+#industry .pricing-cards .standard .heading,
+#industry .pricing-cards .standard p,
+#industry .pricing-cards .standard ul li p {
+    color: #fff;
+}
+
+/* #industry .pricing-cards .standard .buy {
+    margin-bottom: 15%;
+} */
+
+#industry .pricing-cards .standard li:nth-child(5) > svg {
+    color: #bdbdbd;
 }
