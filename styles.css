@@ -1,0 +1,235 @@
+/* resets */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* universal styles */
+body,
+h1,
+h2,
+h3,
+p {
+    font-family: "Montserrat", sans-serif;
+}
+
+/*-------------- hero section styling ---------------*/
+.overlay {
+    position: relative;
+    background-image: url("images/hero-background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 90vh;
+}
+
+#hero {
+    position: absolute;
+    padding: 0 15%;
+    width: 100%;
+    height: 90vh;
+    background-color: rgba(0, 0, 0, 0.4);
+}
+
+header {
+    height: 7%;
+    padding: 5% 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo {
+    width: 25%;
+}
+
+header .logo p {
+    color: #fff;
+    font-size: 2vw;
+    font-weight: 700;
+}
+
+.search,
+.cart {
+    display: none;
+}
+
+#checkbox {
+    display: none;
+}
+
+.menu-toggle {
+    display: none;
+}
+
+header .links {
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .links nav {
+    width: 50%;
+}
+
+header .links .buttons {
+    width: 50%;
+}
+
+header .links nav ul li {
+    display: inline-block;
+    list-style-type: none;
+    margin: 0 2%;
+}
+
+header .links nav ul li a {
+    font-weight: 600;
+    text-transform: capitalize;
+    text-decoration: none;
+    color: #fff;
+    font-size: 0.9vw;
+}
+
+header .links .buttons .login {
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    outline: none;
+    background: none;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 0.9vw;
+    margin: 0 2vw;
+}
+
+header .links .buttons .member {
+    cursor: pointer;
+    color: #fff;
+    border: none;
+    border-radius: 0.4vw;
+    outline: none;
+    padding: 3% 7% 4% 7%;
+    background-color: #23a6f0;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 0.9vw;
+}
+
+header .links .buttons .member span {
+    font-size: 1.5vw;
+}
+
+.banner {
+    padding: 0;
+}
+
+.banner h1 {
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+    font-weight: 800;
+    font-size: 4vw;
+}
+
+.banner h2 {
+    padding: 5% 10%;
+    text-align: center;
+    color: #fff;
+    font-weight: 500;
+    font-size: 1.3vw;
+    line-height: 2vw;
+}
+
+.banner .text {
+    height: auto;
+    padding: 10% 20% 2% 20%;
+}
+
+.banner .banner-buttons {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner .banner-buttons .quote {
+    cursor: pointer;
+    color: #fff;
+    border: solid 0.1vw #23a6f0;
+    border-radius: 2vw;
+    outline: none;
+    padding: 2.5% 4%;
+    margin: 0 1.5%;
+    background-color: #23a6f0;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 0.1vw;
+    font-size: 0.8vw;
+}
+
+.banner .banner-buttons .more {
+    cursor: pointer;
+    color: #fff;
+    border: solid 0.11vw #fff;
+    border-radius: 2vw;
+    outline: none;
+    padding: 1.7% 4%;
+    margin: 0 1.5%;
+    background: transparent;
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 0.9vw;
+}
+
+.banner .floating-cards {
+    display: flex;
+    margin-top: 10%;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner .floating-cards div {
+    cursor: pointer;
+    width: 30%;
+    background-color: #fff;
+    padding: 4%;
+    transition: 0.3s ease;
+    box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.1);
+}
+
+.banner .floating-cards div:hover {
+    color: #fff;
+    background-color: #23a6f0;
+}
+
+.banner .floating-cards div svg {
+    width: 3vw;
+    height: 3vw;
+    color: #23a6f0;
+}
+
+.banner .floating-cards div h3 {
+    text-transform: capitalize;
+    font-size: 1.2vw;
+    padding: 5% 0;
+}
+
+.banner .floating-cards div p {
+    color: #6f6f6f;
+    font-weight: 500;
+    letter-spacing: 0.05vw;
+    font-size: 0.9vw;
+}
+
+.banner .floating-cards div:hover > svg,
+.banner .floating-cards div:hover > h3,
+.banner .floating-cards div:hover > p {
+    color: #fff;
+}
+
+#small {
+    height: 25vh;
+    background-color: #fafafa;
+}
