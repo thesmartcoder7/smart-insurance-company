@@ -230,6 +230,7 @@ header .links .buttons .member span {
     text-transform: capitalize;
     font-size: 1.2vw;
     padding: 5% 0;
+    color: #252b42;
 }
 
 #small .floating-cards div p {
@@ -271,6 +272,7 @@ header .links .buttons .member span {
     text-transform: capitalize;
     padding: 5% 0;
     font-size: 1vw;
+    color: #252b42;
 }
 
 #mission div p {
@@ -294,6 +296,7 @@ header .links .buttons .member span {
 #industry .intro h3 {
     text-transform: capitalize;
     font-size: 3vw;
+    color: #252b42;
 }
 
 /* intro mini-section */
@@ -425,6 +428,7 @@ header .links .buttons .member span {
 #industry .pricing-info h3 {
     text-transform: capitalize;
     font-size: 2.2vw;
+    color: #252b42;
 }
 
 #industry .pricing-info p {
@@ -455,6 +459,7 @@ header .links .buttons .member span {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.7vw;
+    color: #252b42;
 }
 
 #industry .pricing-cards .pricing-card p {
@@ -630,6 +635,7 @@ header .links .buttons .member span {
     text-align: center;
     padding-bottom: 5%;
     font-size: 1.5vw;
+    color: #252b42;
 }
 
 #contact .appointment .booking-form form {
@@ -692,6 +698,7 @@ header .links .buttons .member span {
     text-transform: capitalize;
     font-weight: 700;
     font-size: 2vw;
+    color: #252b42;
 }
 
 #call .call-a p {
@@ -744,6 +751,7 @@ header .links .buttons .member span {
     text-transform: capitalize;
     color: #252b42;
     padding: 15% 0;
+    font-size: 1vw;
 }
 
 #company-info div ul {
