@@ -4,8 +4,6 @@
 
 ### By: Samuel Martins
 
----
-
 ## Table of Content
 
 -   [Description](#description)
@@ -13,8 +11,6 @@
 -   [Technology Used](#technologies)
 -   [Licence](#licence)
 -   [Authors Info](#author-info)
-
----
 
 ## Description
 
@@ -52,14 +48,10 @@ When you run the commands successfully, you should have a local version of this 
 
 Happy coding!
 
----
-
 ## Technologies
 
 -   HTML5
 -   CSS3
-
----
 
 ## Licence
 
@@ -84,8 +76,6 @@ AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
 LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
 OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
 SOFTWARE.
-
----
 
 ## Author Info
 
