@@ -35,7 +35,7 @@ p {
 
 @media screen and (max-width: 500px) {
     #hero {
-        padding: 5%;
+        padding: 5% 5% 50% 5%;
         width: 100%;
         height: auto;
         background-repeat: no-repeat;
@@ -369,6 +369,7 @@ header .links .buttons .member span {
         flex-direction: column;
         justify-content: center;
         align-items: center;
+        padding-bottom: 40%;
     }
 }
 
@@ -461,6 +462,17 @@ header .links .buttons .member span {
     align-items: center;
     justify-content: space-between;
 }
+@media screen and (max-width: 500px) {
+    #small .floating-cards {
+        position: relative;
+        margin-top: -100%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
 
 #small .floating-cards div {
     cursor: pointer;
@@ -469,6 +481,17 @@ header .links .buttons .member span {
     background-color: #fff;
     transition: 0.3s ease;
     box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.1);
+}
+@media screen and (max-width: 500px) {
+    #small .floating-cards div {
+        cursor: pointer;
+        width: 80%;
+        padding: 10%;
+        margin: 5% 0;
+        background-color: #fff;
+        transition: 0.3s ease;
+        box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.1);
+    }
 }
 
 #small .floating-cards div:hover {
@@ -481,6 +504,13 @@ header .links .buttons .member span {
     height: 3vw;
     color: #23a6f0;
 }
+@media screen and (max-width: 500px) {
+    #small .floating-cards div svg {
+        width: 10vw;
+        height: 10vw;
+        color: #23a6f0;
+    }
+}
 
 #small .floating-cards div h3 {
     text-transform: capitalize;
@@ -488,12 +518,28 @@ header .links .buttons .member span {
     padding: 5% 0;
     color: #252b42;
 }
+@media screen and (max-width: 500px) {
+    #small .floating-cards div h3 {
+        text-transform: capitalize;
+        font-size: 5vw;
+        padding: 5% 0;
+        color: #252b42;
+    }
+}
 
 #small .floating-cards div p {
     color: #6f6f6f;
     font-weight: 500;
     letter-spacing: 0.05vw;
     font-size: 0.9vw;
+}
+@media screen and (max-width: 500px) {
+    #small .floating-cards div p {
+        color: #6f6f6f;
+        font-weight: 500;
+        letter-spacing: 0.05vw;
+        font-size: 4vw;
+    }
 }
 
 #small .floating-cards div:hover > svg,
