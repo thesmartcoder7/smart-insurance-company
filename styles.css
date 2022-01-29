@@ -1128,8 +1128,14 @@ header .links .buttons .member span {
 
 /* standard plan */
 #industry .pricing-cards .standard {
-    padding: 10%;
+    padding: 7% 4%;
     background-color: #252b42;
+}
+@media screen and (max-width: 500px) {
+    #industry .pricing-cards .standard {
+        padding: 10%;
+        background-color: #252b42;
+    }
 }
 
 #industry .pricing-cards .standard .heading,
@@ -1148,15 +1154,37 @@ header .links .buttons .member span {
     background-color: #252b42;
 }
 
+@media screen and (max-width: 500px) {
+    #booking {
+        padding: 5% 5% 25% 5%;
+        background-color: #252b42;
+    }
+}
+
 #booking .branches {
     display: flex;
     align-items: center;
     justify-content: center;
 }
+@media screen and (max-width: 500px) {
+    #booking .branches {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
 
 #booking .branches .branches-a {
     width: 50%;
     padding-right: 10%;
+}
+@media screen and (max-width: 500px) {
+    #booking .branches .branches-a {
+        padding-top: 10%;
+        width: 85%;
+        padding-right: 0;
+    }
 }
 
 #booking .branches .branches-a h3 {
@@ -1165,6 +1193,16 @@ header .links .buttons .member span {
     font-size: 2vw;
     font-weight: 700;
     line-height: 3vw;
+}
+@media screen and (max-width: 500px) {
+    #booking .branches .branches-a h3 {
+        color: #fff;
+        text-transform: capitalize;
+        font-size: 5.5vw;
+        font-weight: 700;
+        line-height: 10vw;
+        padding-bottom: 10%;
+    }
 }
 
 #booking .branches .branches-a p {
@@ -1175,6 +1213,16 @@ header .links .buttons .member span {
     font-size: 0.8vw;
     line-height: 1.2vw;
 }
+@media screen and (max-width: 500px) {
+    #booking .branches .branches-a p {
+        color: #fff;
+        padding: 2% 0;
+        font-weight: 500;
+        letter-spacing: 0.01vw;
+        font-size: 3.7vw;
+        line-height: 7vw;
+    }
+}
 
 #booking .branches .branches-b {
     width: 50%;
@@ -1182,9 +1230,23 @@ header .links .buttons .member span {
     align-items: center;
     justify-content: center;
 }
+@media screen and (max-width: 500px) {
+    #booking .branches .branches-b {
+        width: 85%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
 
 #booking .branches .branches-b img {
     width: 30vw;
+}
+@media screen and (max-width: 500px) {
+    #booking .branches .branches-b img {
+        padding-top: 10%;
+        width: 70vw;
+    }
 }
 
 /*-------------- contact section styling ---------------*/
