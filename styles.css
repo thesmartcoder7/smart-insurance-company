@@ -756,19 +756,46 @@ header .links .buttons .member span {
     align-items: center;
     justify-content: space-around;
 }
+@media screen and (max-width: 500px) {
+    #industry .clients {
+        padding: 4% 0 8% 0;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
 
 #industry .clients img {
     width: 6vw;
+}
+@media screen and (max-width: 500px) {
+    #industry .clients img {
+        width: 50vw;
+        margin: 10% 0;
+    }
 }
 
 #industry .clients img:nth-child(2),
 #industry .clients img:nth-child(3) {
     width: 5vw;
 }
+@media screen and (max-width: 500px) {
+    #industry .clients img:nth-child(2),
+    #industry .clients img:nth-child(3) {
+        width: 30vw;
+    }
+}
 
 #industry .clients img:nth-child(5),
 #industry .clients img:nth-child(6) {
     width: 4vw;
+}
+@media screen and (max-width: 500px) {
+    #industry .clients img:nth-child(5),
+    #industry .clients img:nth-child(6) {
+        width: 30vw;
+    }
 }
 
 /* subscription mini-section */
