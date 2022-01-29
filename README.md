@@ -1,6 +1,6 @@
 # Insurance Company Landing Page
 
-![Project Image](readme-image.png)
+![Project Image](readme-image.webp)
 
 ### By: Samuel Martins
 

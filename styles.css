@@ -30,7 +30,7 @@ p {
             rgba(0, 0, 0, 0.4),
             rgba(0, 0, 0, 0.4)
         ),
-        url("images/hero-background.png");
+        url("images/hero-background.webp");
 }
 
 @media screen and (max-width: 500px) {
@@ -46,7 +46,7 @@ p {
                 rgba(0, 0, 0, 0.4),
                 rgba(0, 0, 0, 0.4)
             ),
-            url("images/hero-background.png");
+            url("images/hero-background.webp");
     }
 }
 
@@ -1272,7 +1272,7 @@ header .links .buttons .member span {
 }
 
 #contact .appointment {
-    background-image: url("images/contact-cover.2.png");
+    background-image: url("images/contact-cover.2.webp");
     background-size: contain;
     background-repeat: no-repeat;
     display: flex;
