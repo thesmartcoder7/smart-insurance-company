@@ -39,7 +39,8 @@ p {
         width: 100%;
         height: auto;
         background-repeat: no-repeat;
-        background-size: cover;
+        background-size: auto;
+        background-position: center top;
         background-image: linear-gradient(
                 90deg,
                 rgba(0, 0, 0, 0.4),
@@ -306,12 +307,34 @@ header .links .buttons .member span {
     padding-bottom: 17%;
 }
 
+.banner .text {
+    height: auto;
+    padding: 10% 20% 2% 20%;
+}
+@media screen and (max-width: 500px) {
+    .banner .text {
+        height: auto;
+        padding: 10%;
+    }
+}
+
 .banner h1 {
     color: #fff;
     text-align: center;
     text-transform: capitalize;
     font-weight: 800;
     font-size: 4vw;
+}
+@media screen and (max-width: 500px) {
+    .banner h1 {
+        padding-top: 20%;
+        padding-bottom: 10%;
+        color: #fff;
+        text-align: center;
+        text-transform: capitalize;
+        font-weight: 800;
+        font-size: 8vw;
+    }
 }
 
 .banner h2 {
@@ -322,10 +345,15 @@ header .links .buttons .member span {
     font-size: 1.3vw;
     line-height: 2vw;
 }
-
-.banner .text {
-    height: auto;
-    padding: 10% 20% 2% 20%;
+@media screen and (max-width: 500px) {
+    .banner h2 {
+        padding: 5%;
+        text-align: center;
+        color: #fff;
+        font-weight: 500;
+        font-size: 4.5vw;
+        line-height: 7vw;
+    }
 }
 
 .banner .banner-buttons {
@@ -333,6 +361,15 @@ header .links .buttons .member span {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+@media screen and (max-width: 500px) {
+    .banner .banner-buttons {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
 }
 
 .banner .banner-buttons .quote {
@@ -349,6 +386,22 @@ header .links .buttons .member span {
     line-height: 0.1vw;
     font-size: 0.9vw;
 }
+@media screen and (max-width: 500px) {
+    .banner .banner-buttons .quote {
+        cursor: pointer;
+        color: #fff;
+        border: solid 0.1vw #23a6f0;
+        border-radius: 5vw;
+        outline: none;
+        padding: 6%;
+        margin: 2% 0 5% 0;
+        background-color: #23a6f0;
+        font-weight: 600;
+        text-transform: capitalize;
+        line-height: 0.1vw;
+        font-size: 4vw;
+    }
+}
 
 .banner .banner-buttons .more {
     cursor: pointer;
@@ -363,6 +416,21 @@ header .links .buttons .member span {
     text-transform: capitalize;
     font-size: 0.9vw;
 }
+@media screen and (max-width: 500px) {
+    .banner .banner-buttons .more {
+        cursor: pointer;
+        color: #fff;
+        border: solid 0.11vw #fff;
+        border-radius: 7vw;
+        outline: none;
+        padding: 3.5% 9%;
+        margin: 2% 0;
+        background: transparent;
+        font-weight: 600;
+        text-transform: capitalize;
+        font-size: 4vw;
+    }
+}
 
 #small {
     padding: 5% 15%;
@@ -372,6 +440,17 @@ header .links .buttons .member span {
     align-items: center;
     justify-content: space-between;
     background-color: #fafafa;
+}
+@media screen and (max-width: 500px) {
+    #small {
+        padding: 5%;
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #fafafa;
+    }
 }
 
 #small .floating-cards {
