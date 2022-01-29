@@ -18,26 +18,24 @@ p {
 }
 
 /*-------------- hero section styling ---------------*/
-.overlay {
-    position: relative;
-    background-image: url("images/hero-background.png");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 100%;
-    height: 90vh;
-}
 
 #hero {
-    position: absolute;
     padding: 0 15%;
     width: 100%;
-    height: 90vh;
-    background-color: rgba(0, 0, 0, 0.4);
+    height: auto;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: linear-gradient(
+            90deg,
+            rgba(0, 0, 0, 0.4),
+            rgba(0, 0, 0, 0.4)
+        ),
+        url("images/hero-background.png");
 }
 
 header {
     height: 7%;
-    padding: 5% 0;
+    padding: 3% 0 4% 0;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -49,7 +47,7 @@ header .logo {
 
 header .logo p {
     color: #fff;
-    font-size: 2vw;
+    font-size: 1.7vw;
     font-weight: 700;
 }
 
@@ -116,7 +114,7 @@ header .links .buttons .member {
     border: none;
     border-radius: 0.4vw;
     outline: none;
-    padding: 3% 7% 4% 7%;
+    padding: 2% 7% 3% 7%;
     background-color: #23a6f0;
     font-weight: 600;
     text-transform: capitalize;
@@ -128,11 +126,7 @@ header .links .buttons .member span {
 }
 
 .banner {
-    padding: 0;
-    /* display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center; */
+    padding-bottom: 17%;
 }
 
 .banner h1 {
@@ -170,13 +164,13 @@ header .links .buttons .member span {
     border: solid 0.1vw #23a6f0;
     border-radius: 2vw;
     outline: none;
-    padding: 2.5% 4%;
+    padding: 2.3% 4%;
     margin: 0 1.5%;
     background-color: #23a6f0;
     font-weight: 600;
     text-transform: capitalize;
     line-height: 0.1vw;
-    font-size: 0.8vw;
+    font-size: 0.9vw;
 }
 
 .banner .banner-buttons .more {
@@ -193,56 +187,62 @@ header .links .buttons .member span {
     font-size: 0.9vw;
 }
 
-.banner .floating-cards {
+#small {
+    padding: 5% 15%;
+    width: 100%;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fafafa;
+}
+
+#small .floating-cards {
+    position: relative;
+    margin-top: -15%;
     display: flex;
     width: 100%;
     align-items: center;
     justify-content: space-between;
-    margin-top: 10%;
 }
 
-.banner .floating-cards div {
+#small .floating-cards div {
     cursor: pointer;
     width: 30%;
+    padding: 3%;
     background-color: #fff;
-    padding: 4%;
     transition: 0.3s ease;
     box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.1);
 }
 
-.banner .floating-cards div:hover {
+#small .floating-cards div:hover {
     color: #fff;
     background-color: #23a6f0;
 }
 
-.banner .floating-cards div svg {
+#small .floating-cards div svg {
     width: 3vw;
     height: 3vw;
     color: #23a6f0;
 }
 
-.banner .floating-cards div h3 {
+#small .floating-cards div h3 {
     text-transform: capitalize;
     font-size: 1.2vw;
     padding: 5% 0;
 }
 
-.banner .floating-cards div p {
+#small .floating-cards div p {
     color: #6f6f6f;
     font-weight: 500;
     letter-spacing: 0.05vw;
     font-size: 0.9vw;
 }
 
-.banner .floating-cards div:hover > svg,
-.banner .floating-cards div:hover > h3,
-.banner .floating-cards div:hover > p {
+#small .floating-cards div:hover > svg,
+#small .floating-cards div:hover > h3,
+#small .floating-cards div:hover > p {
     color: #fff;
-}
-
-#small {
-    height: 25vh;
-    background-color: #fafafa;
 }
 
 /*-------------- mission section styling ---------------*/
@@ -677,10 +677,10 @@ header .links .buttons .member span {
 
 /*-------------- call section styling ---------------*/
 #call {
-    padding: 10% 15%;
+    padding: 10% 15% 5% 15%;
     background-color: #fafafa;
     display: flex;
-    align-items: center;
+    align-items: flex-end;
     justify-content: space-between;
 }
 
