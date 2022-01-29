@@ -635,8 +635,12 @@ header .links .buttons .member span {
 }
 @media screen and (max-width: 500px) {
     #industry {
-        padding: 15% 5%;
+        padding: 15% 0;
         text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
         background-color: #fafafa;
     }
 }
@@ -705,7 +709,7 @@ header .links .buttons .member span {
 @media screen and (max-width: 500px) {
     #industry .ratings .rating {
         background-color: #fff;
-        width: 90%;
+        width: 80%;
         padding: 15% 6%;
         border-radius: 5vw;
         border: solid 0.1vw rgba(0, 0, 0, 0.2);
@@ -758,7 +762,7 @@ header .links .buttons .member span {
 }
 @media screen and (max-width: 500px) {
     #industry .clients {
-        padding: 4% 0 8% 0;
+        padding: 4% 0 10% 0;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -806,6 +810,17 @@ header .links .buttons .member span {
     padding: 2.5% 5%;
     background-image: linear-gradient(90deg, #024688, #d21589);
 }
+@media screen and (max-width: 500px) {
+    #industry .subscription {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        padding: 7% 2%;
+        background-image: linear-gradient(90deg, #024688, #d21589);
+    }
+}
 
 #industry .subscription h3 {
     width: 30%;
@@ -815,12 +830,32 @@ header .links .buttons .member span {
     font-size: 1.5vw;
     line-height: 2vw;
 }
+@media screen and (max-width: 500px) {
+    #industry .subscription h3 {
+        width: 100%;
+        padding: 7% 15%;
+        text-align: center;
+        text-transform: capitalize;
+        color: #fff;
+        font-size: 5vw;
+        line-height: 7vw;
+    }
+}
 
 #industry .subscription form {
     display: flex;
     align-items: center;
     justify-content: flex-end;
     width: 60%;
+}
+@media screen and (max-width: 500px) {
+    #industry .subscription form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding-bottom: 7%;
+    }
 }
 
 #industry .subscription form .email {
@@ -832,6 +867,18 @@ header .links .buttons .member span {
     outline: none;
     border-radius: 0.3vw 0 0 0.3vw;
     padding: 2.8% 6%;
+}
+@media screen and (max-width: 500px) {
+    #industry .subscription form .email {
+        width: 50%;
+        font-weight: 500;
+        font-size: 3vw;
+        font-family: "Montserrat", sans-serif;
+        border: none;
+        outline: none;
+        border-radius: 2.5vw 0 0 2.5vw;
+        padding: 5%;
+    }
 }
 
 #industry .subscription form .submit {
@@ -848,6 +895,23 @@ header .links .buttons .member span {
     outline: none;
     border-radius: 0 0.3vw 0.3vw 0;
     padding: 2.8% 6%;
+}
+@media screen and (max-width: 500px) {
+    #industry .subscription form .submit {
+        display: flex;
+        cursor: pointer;
+        justify-content: center;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 3vw;
+        width: 30%;
+        background-color: #23a6f0;
+        color: #fff;
+        border: none;
+        outline: none;
+        border-radius: 0 2.5vw 2.5vw 0;
+        padding: 5%;
+    }
 }
 
 /* pricing mini-section */
