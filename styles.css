@@ -622,7 +622,8 @@ header .links .buttons .member span {
         color: #6f6f6f;
         font-weight: 500;
         letter-spacing: 0.04vw;
-        font-size: 3vw;
+        font-size: 3.6vw;
+        line-height: 4.7vw;
     }
 }
 
@@ -632,7 +633,15 @@ header .links .buttons .member span {
     text-align: center;
     background-color: #fafafa;
 }
+@media screen and (max-width: 500px) {
+    #industry {
+        padding: 15% 5%;
+        text-align: center;
+        background-color: #fafafa;
+    }
+}
 
+/* intro mini-section */
 #industry .intro {
     padding-bottom: 5%;
 }
@@ -642,8 +651,14 @@ header .links .buttons .member span {
     font-size: 3vw;
     color: #252b42;
 }
+@media screen and (max-width: 500px) {
+    #industry .intro h3 {
+        text-transform: capitalize;
+        font-size: 7vw;
+        color: #252b42;
+    }
+}
 
-/* intro mini-section */
 #industry .intro p {
     padding: 1% 25%;
     color: #6f6f6f;
@@ -651,6 +666,16 @@ header .links .buttons .member span {
     letter-spacing: 0.05vw;
     font-size: 0.9vw;
     line-height: 1.5vw;
+}
+@media screen and (max-width: 500px) {
+    #industry .intro p {
+        padding: 5% 10%;
+        color: #6f6f6f;
+        font-weight: 500;
+        letter-spacing: 0.05vw;
+        font-size: 3.5vw;
+        line-height: 6vw;
+    }
 }
 
 /* ratings mini-section*/
@@ -660,6 +685,15 @@ header .links .buttons .member span {
     align-items: center;
     justify-content: space-between;
 }
+@media screen and (max-width: 500px) {
+    #industry .ratings {
+        padding-bottom: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
 
 #industry .ratings .rating {
     background-color: #fff;
@@ -668,9 +702,24 @@ header .links .buttons .member span {
     border-radius: 0.5vw;
     border: solid 0.1vw rgba(0, 0, 0, 0.2);
 }
+@media screen and (max-width: 500px) {
+    #industry .ratings .rating {
+        background-color: #fff;
+        width: 90%;
+        padding: 15% 6%;
+        border-radius: 5vw;
+        border: solid 0.1vw rgba(0, 0, 0, 0.2);
+        margin: 10% 0;
+    }
+}
 
 #industry .ratings .rating img {
     width: 9vw;
+}
+@media screen and (max-width: 500px) {
+    #industry .ratings .rating img {
+        width: 50vw;
+    }
 }
 
 #industry .ratings .rating p {
@@ -680,6 +729,16 @@ header .links .buttons .member span {
     letter-spacing: 0.03vw;
     font-size: 0.8vw;
     line-height: 1.2vw;
+}
+@media screen and (max-width: 500px) {
+    #industry .ratings .rating p {
+        padding: 7% 5%;
+        color: #6f6f6f;
+        font-weight: 500;
+        letter-spacing: 0.03vw;
+        font-size: 3.7vw;
+        line-height: 5vw;
+    }
 }
 
 #industry .ratings .rating .stars {
