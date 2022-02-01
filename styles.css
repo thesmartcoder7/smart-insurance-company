@@ -705,6 +705,17 @@ header .links .buttons .member span {
         background-color: #fafafa;
     }
 }
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    #small {
+        padding: 0 10%;
+        width: 100%;
+        height: auto;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        background-color: #fafafa;
+    }
+}
 
 #small .floating-cards {
     position: relative;
@@ -725,6 +736,17 @@ header .links .buttons .member span {
         justify-content: space-between;
     }
 }
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    #small .floating-cards {
+        position: relative;
+        margin-top: -30%;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        align-items: center;
+        justify-content: space-between;
+    }
+}
 
 #small .floating-cards div {
     cursor: pointer;
@@ -735,6 +757,17 @@ header .links .buttons .member span {
     box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.1);
 }
 @media screen and (max-width: 500px) {
+    #small .floating-cards div {
+        cursor: pointer;
+        width: 80%;
+        padding: 10%;
+        margin: 5% 0;
+        background-color: #fff;
+        transition: 0.3s ease;
+        box-shadow: 0 0.5vw 1vw rgba(0, 0, 0, 0.1);
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
     #small .floating-cards div {
         cursor: pointer;
         width: 80%;
@@ -763,6 +796,13 @@ header .links .buttons .member span {
         color: #23a6f0;
     }
 }
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    #small .floating-cards div svg {
+        width: 10vw;
+        height: 10vw;
+        color: #23a6f0;
+    }
+}
 
 #small .floating-cards div h3 {
     text-transform: capitalize;
@@ -774,6 +814,14 @@ header .links .buttons .member span {
     #small .floating-cards div h3 {
         text-transform: capitalize;
         font-size: 5vw;
+        padding: 5% 0;
+        color: #252b42;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    #small .floating-cards div h3 {
+        text-transform: capitalize;
+        font-size: 3.5vw;
         padding: 5% 0;
         color: #252b42;
     }
@@ -791,6 +839,14 @@ header .links .buttons .member span {
         font-weight: 500;
         letter-spacing: 0.05vw;
         font-size: 3.7vw;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    #small .floating-cards div p {
+        color: #6f6f6f;
+        font-weight: 500;
+        letter-spacing: 0.05vw;
+        font-size: 2.7vw;
     }
 }
 
