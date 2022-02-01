@@ -996,6 +996,17 @@ header .links .buttons .member span {
         background-color: #fafafa;
     }
 }
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    #industry {
+        padding: 15% 0;
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        background-color: #fafafa;
+    }
+}
 
 /* intro mini-section */
 #industry .intro {
@@ -1008,6 +1019,13 @@ header .links .buttons .member span {
     color: #252b42;
 }
 @media screen and (max-width: 500px) {
+    #industry .intro h3 {
+        text-transform: capitalize;
+        font-size: 7vw;
+        color: #252b42;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
     #industry .intro h3 {
         text-transform: capitalize;
         font-size: 7vw;
@@ -1033,6 +1051,16 @@ header .links .buttons .member span {
         line-height: 6vw;
     }
 }
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    #industry .intro p {
+        padding: 5% 15%;
+        color: #6f6f6f;
+        font-weight: 500;
+        letter-spacing: 0.05vw;
+        font-size: 2.5vw;
+        line-height: 6vw;
+    }
+}
 
 /* ratings mini-section*/
 #industry .ratings {
@@ -1042,6 +1070,15 @@ header .links .buttons .member span {
     justify-content: space-between;
 }
 @media screen and (max-width: 500px) {
+    #industry .ratings {
+        padding-bottom: 20%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
     #industry .ratings {
         padding-bottom: 20%;
         display: flex;
@@ -1068,6 +1105,16 @@ header .links .buttons .member span {
         margin: 10% 0;
     }
 }
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    #industry .ratings .rating {
+        background-color: #fff;
+        width: 80%;
+        padding: 15% 6%;
+        border-radius: 5vw;
+        border: solid 0.1vw rgba(0, 0, 0, 0.2);
+        margin: 10% 0;
+    }
+}
 
 #industry .ratings .rating img {
     width: 9vw;
@@ -1075,6 +1122,11 @@ header .links .buttons .member span {
 @media screen and (max-width: 500px) {
     #industry .ratings .rating img {
         width: 50vw;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    #industry .ratings .rating img {
+        width: 30vw;
     }
 }
 
@@ -1093,6 +1145,16 @@ header .links .buttons .member span {
         font-weight: 500;
         letter-spacing: 0.03vw;
         font-size: 3.7vw;
+        line-height: 5vw;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    #industry .ratings .rating p {
+        padding: 7% 5%;
+        color: #6f6f6f;
+        font-weight: 500;
+        letter-spacing: 0.03vw;
+        font-size: 2.7vw;
         line-height: 5vw;
     }
 }
@@ -1121,11 +1183,26 @@ header .links .buttons .member span {
         justify-content: space-between;
     }
 }
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    #industry .clients {
+        padding: 0 0 10% 0;
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: space-between;
+    }
+}
 
 #industry .clients img {
     width: 6vw;
 }
 @media screen and (max-width: 500px) {
+    #industry .clients img {
+        width: 20vw;
+        margin: 10% 5%;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
     #industry .clients img {
         width: 20vw;
         margin: 10% 5%;
@@ -1142,12 +1219,24 @@ header .links .buttons .member span {
         width: 12vw;
     }
 }
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    #industry .clients img:nth-child(2),
+    #industry .clients img:nth-child(3) {
+        width: 12vw;
+    }
+}
 
 #industry .clients img:nth-child(5),
 #industry .clients img:nth-child(6) {
     width: 4vw;
 }
 @media screen and (max-width: 500px) {
+    #industry .clients img:nth-child(5),
+    #industry .clients img:nth-child(6) {
+        width: 12vw;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
     #industry .clients img:nth-child(5),
     #industry .clients img:nth-child(6) {
         width: 12vw;
