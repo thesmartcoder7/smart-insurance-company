@@ -50,6 +50,23 @@ p {
     }
 }
 
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    #hero {
+        padding: 5%;
+        width: 100%;
+        height: auto;
+        background-repeat: no-repeat;
+        background-size: auto;
+        background-position: center top;
+        background-image: linear-gradient(
+                90deg,
+                rgba(0, 0, 0, 0.4),
+                rgba(0, 0, 0, 0.4)
+            ),
+            url("images/hero-background.webp");
+    }
+}
+
 header {
     height: 7%;
     padding: 3% 0 4% 0;
@@ -58,6 +75,17 @@ header {
     justify-content: space-between;
 }
 @media screen and (max-width: 500px) {
+    header {
+        height: 15%;
+        padding: 0 0 0 0;
+        display: flex;
+        flex-direction: row-reverse;
+        align-items: center;
+        justify-content: flex-end;
+        position: relative;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
     header {
         height: 15%;
         padding: 0 0 0 0;
@@ -95,12 +123,35 @@ header .menu-toggle {
         color: #6f6f6f;
     }
 }
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    header #checkbox {
+        display: none;
+    }
+
+    header .menu-toggle {
+        display: inline-block;
+        width: 6.5vw;
+        height: 6.5vw;
+        color: #fff;
+        margin-left: auto;
+        z-index: 7;
+    }
+
+    #checkbox:checked ~ .menu-toggle {
+        color: #6f6f6f;
+    }
+}
 
 header .logo {
     width: 25%;
 }
 
 @media screen and (max-width: 500px) {
+    header .logo {
+        z-index: 10;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
     header .logo {
         z-index: 10;
     }
@@ -124,11 +175,51 @@ header .logo p {
         color: #252b42;
     }
 }
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    header .logo p {
+        color: #fff;
+        font-size: 4vw;
+        font-weight: 700;
+        z-index: 10;
+        transition: 0.3s ease;
+    }
+
+    #checkbox:checked ~ .logo p {
+        color: #252b42;
+    }
+}
 
 header .mobile-controls {
     display: none;
 }
 @media screen and (max-width: 500px) {
+    header .mobile-controls {
+        display: flex;
+        align-items: center;
+        justify-content: flex-end;
+        z-index: 7;
+    }
+
+    header .mobile-controls .search,
+    header .mobile-controls .cart {
+        display: none;
+    }
+
+    #checkbox:checked ~ .mobile-controls .search,
+    #checkbox:checked ~ .mobile-controls .cart {
+        display: inline-block;
+        width: 6vw;
+        height: 6vw;
+        margin: 0 10%;
+        color: #6f6f6f;
+    }
+
+    #checkbox:checked ~ .mobile-controls {
+        position: absolute;
+        margin-left: 60%;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
     header .mobile-controls {
         display: flex;
         align-items: center;
@@ -183,11 +274,37 @@ header .links {
         right: 0%;
     }
 }
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    header .links {
+        width: 100%;
+        height: 100vh;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        position: fixed;
+        background-color: #fff;
+        transition: 0.3s ease;
+        z-index: 5;
+        top: 0;
+        right: -100%;
+    }
+
+    #checkbox:checked ~ .links {
+        top: 0;
+        right: 0%;
+    }
+}
 
 header .links nav {
     width: 50%;
 }
 @media screen and (max-width: 500px) {
+    header .links nav {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
     header .links nav {
         width: 100%;
     }
@@ -200,6 +317,15 @@ header .links .buttons {
     justify-content: flex-end;
 }
 @media screen and (max-width: 500px) {
+    header .links .buttons {
+        width: 60%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
     header .links .buttons {
         width: 60%;
         display: flex;
@@ -225,6 +351,17 @@ header .links nav ul li {
         margin: 10% 0;
     }
 }
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    header .links nav ul li {
+        text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        list-style-type: none;
+        margin: 7% 0;
+    }
+}
 
 header .links nav ul li a {
     font-weight: 600;
@@ -240,6 +377,15 @@ header .links nav ul li a {
         text-decoration: none;
         color: #6f6f6f;
         font-size: 6vw;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    header .links nav ul li a {
+        font-weight: 600;
+        text-transform: capitalize;
+        text-decoration: none;
+        color: #6f6f6f;
+        font-size: 5vw;
     }
 }
 
@@ -264,6 +410,19 @@ header .links .buttons .login {
         font-weight: 600;
         text-transform: capitalize;
         font-size: 6vw;
+        margin: 10vw 0;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    header .links .buttons .login {
+        cursor: pointer;
+        color: #6f6f6f;
+        border: none;
+        outline: none;
+        background: none;
+        font-weight: 600;
+        text-transform: capitalize;
+        font-size: 5vw;
         margin: 10vw 0;
     }
 }
@@ -294,6 +453,21 @@ header .links .buttons .member {
         font-size: 4vw;
     }
 }
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    header .links .buttons .member {
+        cursor: pointer;
+        color: #fff;
+        border: none;
+        border-radius: 2vw;
+        outline: none;
+        padding: 5% 7%;
+        background-color: #23a6f0;
+        font-weight: 600;
+        text-transform: capitalize;
+        font-size: 3vw;
+    }
+}
+
 header .links .buttons .member span {
     font-size: 1.5vw;
 }
@@ -302,9 +476,19 @@ header .links .buttons .member span {
         display: none;
     }
 }
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    header .links .buttons .member span {
+        display: none;
+    }
+}
 
 .banner {
     padding-bottom: 17%;
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    .banner {
+        padding-bottom: 0;
+    }
 }
 
 .banner .text {
@@ -312,6 +496,12 @@ header .links .buttons .member span {
     padding: 10% 20% 2% 20%;
 }
 @media screen and (max-width: 500px) {
+    .banner .text {
+        height: auto;
+        padding: 10%;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
     .banner .text {
         height: auto;
         padding: 10%;
@@ -329,6 +519,17 @@ header .links .buttons .member span {
     .banner h1 {
         padding-top: 20%;
         padding-bottom: 10%;
+        color: #fff;
+        text-align: center;
+        text-transform: capitalize;
+        font-weight: 800;
+        font-size: 8vw;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    .banner h1 {
+        padding-top: 7%;
+        padding-bottom: 5%;
         color: #fff;
         text-align: center;
         text-transform: capitalize;
@@ -355,6 +556,16 @@ header .links .buttons .member span {
         line-height: 7vw;
     }
 }
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    .banner h2 {
+        padding: 0 5%;
+        text-align: center;
+        color: #fff;
+        font-weight: 500;
+        font-size: 3.5vw;
+        line-height: 7vw;
+    }
+}
 
 .banner .banner-buttons {
     width: 100%;
@@ -363,6 +574,16 @@ header .links .buttons .member span {
     align-items: center;
 }
 @media screen and (max-width: 500px) {
+    .banner .banner-buttons {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding-bottom: 40%;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
     .banner .banner-buttons {
         width: 100%;
         display: flex;
@@ -403,6 +624,22 @@ header .links .buttons .member span {
         font-size: 4vw;
     }
 }
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    .banner .banner-buttons .quote {
+        cursor: pointer;
+        color: #fff;
+        border: solid 0.1vw #23a6f0;
+        border-radius: 5vw;
+        outline: none;
+        padding: 6%;
+        margin: 2% 0 5% 0;
+        background-color: #23a6f0;
+        font-weight: 600;
+        text-transform: capitalize;
+        line-height: 0.1vw;
+        font-size: 3vw;
+    }
+}
 
 .banner .banner-buttons .more {
     cursor: pointer;
@@ -430,6 +667,21 @@ header .links .buttons .member span {
         font-weight: 600;
         text-transform: capitalize;
         font-size: 4vw;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    .banner .banner-buttons .more {
+        cursor: pointer;
+        color: #fff;
+        border: solid 0.11vw #fff;
+        border-radius: 7vw;
+        outline: none;
+        padding: 3.5% 9%;
+        margin: 2% 0;
+        background: transparent;
+        font-weight: 600;
+        text-transform: capitalize;
+        font-size: 3vw;
     }
 }
 
