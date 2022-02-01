@@ -1938,6 +1938,17 @@ header .links .buttons .member span {
         margin-top: -15%;
     }
 }
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    #contact {
+        padding: 5%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-end;
+        position: relative;
+        margin-top: -15%;
+    }
+}
 
 #contact .appointment {
     background-image: url("images/contact-cover.2.webp");
@@ -1966,11 +1977,32 @@ header .links .buttons .member span {
         padding: 10% 0;
     }
 }
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    #contact .appointment {
+        background-image: url("");
+        background-size: cover;
+        background-position: center top;
+        background-repeat: no-repeat;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 100%;
+        justify-content: center;
+        background-color: #fff;
+        margin-top: 0;
+        padding: 10% 0;
+    }
+}
 
 #contact .appointment .image {
     width: 40%;
 }
 @media screen and (max-width: 500px) {
+    #contact .appointment .image {
+        width: 100%;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
     #contact .appointment .image {
         width: 100%;
     }
@@ -1987,6 +2019,13 @@ header .links .buttons .member span {
     width: 60%;
 }
 @media screen and (max-width: 500px) {
+    #contact .appointment .booking-form {
+        text-align: center;
+        background-color: #fff;
+        width: 100%;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
     #contact .appointment .booking-form {
         text-align: center;
         background-color: #fff;
@@ -2010,6 +2049,15 @@ header .links .buttons .member span {
         color: #252b42;
     }
 }
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    #contact .appointment .booking-form h3 {
+        text-transform: capitalize;
+        text-align: center;
+        padding-bottom: 5%;
+        font-size: 4.5vw;
+        color: #252b42;
+    }
+}
 
 #contact .appointment .booking-form form {
     font-family: "Montserrat", sans-serif;
@@ -2019,6 +2067,15 @@ header .links .buttons .member span {
     flex-direction: column;
 }
 @media screen and (max-width: 500px) {
+    #contact .appointment .booking-form form {
+        font-family: "Montserrat", sans-serif;
+        padding: 5% 10% 15% 10%;
+        text-align: left;
+        display: flex;
+        flex-direction: column;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
     #contact .appointment .booking-form form {
         font-family: "Montserrat", sans-serif;
         padding: 5% 10% 15% 10%;
@@ -2040,6 +2097,13 @@ header .links .buttons .member span {
         font-size: 3.5vw;
     }
 }
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    #contact .appointment .booking-form form label {
+        padding: 5% 0 2% 0;
+        font-weight: 500;
+        font-size: 3vw;
+    }
+}
 
 #contact .appointment .booking-form form input {
     font-family: "Montserrat", sans-serif;
@@ -2051,6 +2115,17 @@ header .links .buttons .member span {
     font-size: 0.7vw;
 }
 @media screen and (max-width: 500px) {
+    #contact .appointment .booking-form form input {
+        font-family: "Montserrat", sans-serif;
+        padding: 7%;
+        border: solid 0.1vw rgba(0, 0, 0, 0.1);
+        background-color: #f9f9f9;
+        border-radius: 1vw;
+        outline: none;
+        font-size: 2.7vw;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
     #contact .appointment .booking-form form input {
         font-family: "Montserrat", sans-serif;
         padding: 7%;
@@ -2084,6 +2159,18 @@ header .links .buttons .member span {
         font-size: 2.7vw;
     }
 }
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    #contact .appointment .booking-form form select {
+        font-family: "Montserrat", sans-serif;
+        padding: 7%;
+        border: solid 0.1vw rgba(0, 0, 0, 0.1);
+        background-color: #f9f9f9;
+        border-radius: 1vw;
+        outline: none;
+        color: rgba(0, 0, 0, 0.5);
+        font-size: 2.7vw;
+    }
+}
 
 #contact .appointment .booking-form form .button {
     cursor: pointer;
@@ -2112,11 +2199,27 @@ header .links .buttons .member span {
         justify-content: center;
     }
 }
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    #call {
+        padding: 5% 10%;
+        background-color: #fafafa;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
 
 #call .call-a {
     width: 70%;
 }
 @media screen and (max-width: 500px) {
+    #call .call-a {
+        width: 100%;
+        padding-right: 10%;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
     #call .call-a {
         width: 100%;
         padding-right: 10%;
@@ -2130,6 +2233,15 @@ header .links .buttons .member span {
     color: #252b42;
 }
 @media screen and (max-width: 500px) {
+    #call .call-a h3 {
+        text-transform: capitalize;
+        font-weight: 700;
+        font-size: 6vw;
+        line-height: 8vw;
+        color: #252b42;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
     #call .call-a h3 {
         text-transform: capitalize;
         font-weight: 700;
@@ -2157,6 +2269,16 @@ header .links .buttons .member span {
         line-height: 6vw;
     }
 }
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    #call .call-a p {
+        padding: 2% 0;
+        color: #6f6f6f;
+        font-weight: 500;
+        letter-spacing: 0.03vw;
+        font-size: 2.7vw;
+        line-height: 6vw;
+    }
+}
 
 #call .call-b {
     display: flex;
@@ -2165,6 +2287,15 @@ header .links .buttons .member span {
     width: 30%;
 }
 @media screen and (max-width: 500px) {
+    #call .call-b {
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        width: 100%;
+        padding: 5% 0;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
     #call .call-b {
         display: flex;
         align-items: center;
@@ -2200,6 +2331,20 @@ header .links .buttons .member span {
         font-size: 3vw;
     }
 }
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    #call .call-b .call {
+        cursor: pointer;
+        color: #fff;
+        border: none;
+        border-radius: 1.5vw;
+        outline: none;
+        padding: 5% 10%;
+        background-color: #23a6f0;
+        font-weight: 600;
+        text-transform: capitalize;
+        font-size: 2.5vw;
+    }
+}
 
 /*-------------- company info section styling ---------------*/
 #company-info {
@@ -2215,6 +2360,17 @@ header .links .buttons .member span {
         background-color: #fff;
         display: flex;
         flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    #company-info {
+        padding: 5% 10%;
+        background-color: #fff;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
         align-items: flex-start;
         justify-content: space-between;
     }
@@ -2237,6 +2393,16 @@ header .links .buttons .member span {
         margin: 10% 0;
     }
 }
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    #company-info div {
+        width: 50%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: flex-end;
+        margin: 10% 0;
+    }
+}
 
 #company-info div h3 {
     text-transform: capitalize;
@@ -2250,6 +2416,14 @@ header .links .buttons .member span {
         color: #252b42;
         padding: 5% 0;
         font-size: 5vw;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    #company-info div h3 {
+        text-transform: capitalize;
+        color: #252b42;
+        padding: 5% 0;
+        font-size: 3.5vw;
     }
 }
 
@@ -2278,6 +2452,16 @@ header .links .buttons .member span {
         text-transform: capitalize;
     }
 }
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    #company-info div ul li {
+        margin: 10% 0;
+        color: #6f6f6f;
+        font-weight: 500;
+        font-size: 2.7vw;
+        list-style-type: none;
+        text-transform: capitalize;
+    }
+}
 
 #company-info div:last-child div {
     width: 100%;
@@ -2296,6 +2480,13 @@ header .links .buttons .member span {
     #company-info div:last-child div svg {
         width: 7vw;
         height: 7vw;
+        color: #23a6f0;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    #company-info div:last-child div svg {
+        width: 5vw;
+        height: 5vw;
         color: #23a6f0;
     }
 }
@@ -2318,6 +2509,16 @@ header .links .buttons .member span {
         list-style-type: none;
     }
 }
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    #company-info div:last-child div p {
+        margin: 0;
+        padding-left: 5%;
+        color: #6f6f6f;
+        font-weight: 500;
+        font-size: 2.5vw;
+        list-style-type: none;
+    }
+}
 
 /*-------------- footer section styling ---------------*/
 footer {
@@ -2327,6 +2528,15 @@ footer {
     justify-content: space-between;
 }
 @media screen and (max-width: 500px) {
+    footer {
+        padding: 5% 10%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
     footer {
         padding: 5% 10%;
         display: flex;
@@ -2351,6 +2561,15 @@ footer .text {
         padding-top: 5%;
     }
 }
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    footer .text {
+        text-transform: capitalize;
+        font-size: 2.5vw;
+        font-weight: 500;
+        color: #6f6f6f;
+        padding-top: 5%;
+    }
+}
 
 footer .icons {
     display: flex;
@@ -2358,6 +2577,14 @@ footer .icons {
     justify-content: space-between;
 }
 @media screen and (max-width: 500px) {
+    footer .icons {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        padding: 2% 0;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
     footer .icons {
         display: flex;
         align-items: center;
@@ -2373,6 +2600,14 @@ footer .icons svg {
     color: #23a6f0;
 }
 @media screen and (max-width: 500px) {
+    footer .icons svg {
+        width: 10vw;
+        height: 10vw;
+        margin: 0 10%;
+        color: #23a6f0;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
     footer .icons svg {
         width: 10vw;
         height: 10vw;
