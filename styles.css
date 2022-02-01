@@ -208,8 +208,8 @@ header .mobile-controls {
     #checkbox:checked ~ .mobile-controls .search,
     #checkbox:checked ~ .mobile-controls .cart {
         display: inline-block;
-        width: 6vw;
-        height: 6vw;
+        width: 10vw;
+        height: 10vw;
         margin: 0 10%;
         color: #6f6f6f;
     }
@@ -235,8 +235,8 @@ header .mobile-controls {
     #checkbox:checked ~ .mobile-controls .search,
     #checkbox:checked ~ .mobile-controls .cart {
         display: inline-block;
-        width: 10vw;
-        height: 10vw;
+        width: 7vw;
+        height: 17vw;
         margin: 0 10%;
         color: #6f6f6f;
     }
