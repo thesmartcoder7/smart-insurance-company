@@ -1262,6 +1262,17 @@ header .links .buttons .member span {
         background-image: linear-gradient(90deg, #024688, #d21589);
     }
 }
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    #industry .subscription {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+        padding: 7% 2%;
+        background-image: linear-gradient(90deg, #024688, #d21589);
+    }
+}
 
 #industry .subscription h3 {
     width: 30%;
@@ -1272,6 +1283,17 @@ header .links .buttons .member span {
     line-height: 2vw;
 }
 @media screen and (max-width: 500px) {
+    #industry .subscription h3 {
+        width: 100%;
+        padding: 7% 15%;
+        text-align: center;
+        text-transform: capitalize;
+        color: #fff;
+        font-size: 5vw;
+        line-height: 7vw;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
     #industry .subscription h3 {
         width: 100%;
         padding: 7% 15%;
@@ -1298,6 +1320,15 @@ header .links .buttons .member span {
         padding-bottom: 7%;
     }
 }
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    #industry .subscription form {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        padding-bottom: 7%;
+    }
+}
 
 #industry .subscription form .email {
     width: 50%;
@@ -1314,6 +1345,18 @@ header .links .buttons .member span {
         width: 50%;
         font-weight: 500;
         font-size: 3vw;
+        font-family: "Montserrat", sans-serif;
+        border: none;
+        outline: none;
+        border-radius: 2.5vw 0 0 2.5vw;
+        padding: 5%;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    #industry .subscription form .email {
+        width: 50%;
+        font-weight: 500;
+        font-size: 2vw;
         font-family: "Montserrat", sans-serif;
         border: none;
         outline: none;
@@ -1354,6 +1397,23 @@ header .links .buttons .member span {
         padding: 5%;
     }
 }
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    #industry .subscription form .submit {
+        display: flex;
+        cursor: pointer;
+        justify-content: center;
+        font-family: "Montserrat", sans-serif;
+        font-weight: 500;
+        font-size: 2vw;
+        width: 30%;
+        background-color: #23a6f0;
+        color: #fff;
+        border: none;
+        outline: none;
+        border-radius: 0 2.5vw 2.5vw 0;
+        padding: 5%;
+    }
+}
 
 /* pricing mini-section */
 #industry .pricing-info {
@@ -1366,6 +1426,13 @@ header .links .buttons .member span {
     color: #252b42;
 }
 @media screen and (max-width: 500px) {
+    #industry .pricing-info h3 {
+        text-transform: capitalize;
+        font-size: 7vw;
+        color: #252b42;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
     #industry .pricing-info h3 {
         text-transform: capitalize;
         font-size: 7vw;
@@ -1391,6 +1458,16 @@ header .links .buttons .member span {
         line-height: 5vw;
     }
 }
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    #industry .pricing-info p {
+        padding: 2% 15%;
+        color: #6f6f6f;
+        font-weight: 500;
+        letter-spacing: 0.03vw;
+        font-size: 2.5vw;
+        line-height: 5vw;
+    }
+}
 
 #industry .pricing-cards {
     display: flex;
@@ -1399,6 +1476,16 @@ header .links .buttons .member span {
     padding-bottom: 5%;
 }
 @media screen and (max-width: 500px) {
+    #industry .pricing-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        padding-bottom: 5%;
+        width: 80%;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
     #industry .pricing-cards {
         display: flex;
         flex-direction: column;
@@ -1425,6 +1512,15 @@ header .links .buttons .member span {
         margin: 15% 0;
     }
 }
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    #industry .pricing-cards .pricing-card {
+        border: solid 0.15vw #23a6f0;
+        border-radius: 3vw;
+        width: 80%;
+        padding: 7%;
+        margin: 10% 0.2%;
+    }
+}
 
 #industry .pricing-cards .pricing-card .heading {
     text-transform: uppercase;
@@ -1437,6 +1533,15 @@ header .links .buttons .member span {
         text-transform: uppercase;
         font-weight: 700;
         font-size: 7vw;
+        color: #252b42;
+        padding-top: 10%;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    #industry .pricing-cards .pricing-card .heading {
+        text-transform: uppercase;
+        font-weight: 700;
+        font-size: 5vw;
         color: #252b42;
         padding-top: 10%;
     }
@@ -1460,6 +1565,16 @@ header .links .buttons .member span {
         line-height: 5vw;
     }
 }
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    #industry .pricing-cards .pricing-card p {
+        padding: 10%;
+        color: #6f6f6f;
+        font-weight: 500;
+        letter-spacing: 0.03vw;
+        font-size: 2.5vw;
+        line-height: 5vw;
+    }
+}
 
 #industry .pricing-cards .pricing-card .price {
     text-transform: capitalize;
@@ -1477,6 +1592,15 @@ header .links .buttons .member span {
         position: relative;
     }
 }
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    #industry .pricing-cards .pricing-card .price {
+        text-transform: capitalize;
+        font-weight: 600;
+        font-size: 7vw;
+        color: #23a6f0;
+        position: relative;
+    }
+}
 
 #industry .pricing-cards .pricing-card .price .dollars {
     font-size: 1.3vw;
@@ -1484,6 +1608,13 @@ header .links .buttons .member span {
     margin-top: -1%;
 }
 @media screen and (max-width: 500px) {
+    #industry .pricing-cards .pricing-card .price .dollars {
+        font-size: 5vw;
+        position: absolute;
+        margin-top: -1%;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
     #industry .pricing-cards .pricing-card .price .dollars {
         font-size: 5vw;
         position: absolute;
@@ -1504,10 +1635,24 @@ header .links .buttons .member span {
         margin-left: 10%;
     }
 }
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    #industry .pricing-cards .pricing-card .price .month {
+        font-weight: 500;
+        font-size: 2.5vw;
+        color: #8ec2f2;
+        margin-left: 10%;
+    }
+}
 
 #industry .pricing-cards .pricing-card ul {
     text-align: left;
     padding: 10% 0;
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    #industry .pricing-cards .pricing-card ul {
+        text-align: left;
+        padding: 10% 0 10% 7%;
+    }
 }
 
 #industry .pricing-cards .pricing-card ul li {
@@ -1525,6 +1670,13 @@ header .links .buttons .member span {
     #industry .pricing-cards .pricing-card ul li svg {
         width: 6vw;
         height: 6vw;
+        color: #2dc071;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    #industry .pricing-cards .pricing-card ul li svg {
+        width: 5vw;
+        height: 5vw;
         color: #2dc071;
     }
 }
@@ -1560,6 +1712,20 @@ header .links .buttons .member span {
         font-size: 4vw;
     }
 }
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    #industry .pricing-cards .pricing-card .buy {
+        cursor: pointer;
+        color: #fff;
+        border: none;
+        border-radius: 2vw;
+        outline: none;
+        padding: 5% 7%;
+        background-color: #23a6f0;
+        font-weight: 600;
+        text-transform: capitalize;
+        font-size: 3vw;
+    }
+}
 
 /* free plan */
 #industry .pricing-cards .free li:nth-child(4) > svg,
@@ -1573,6 +1739,12 @@ header .links .buttons .member span {
     background-color: #252b42;
 }
 @media screen and (max-width: 500px) {
+    #industry .pricing-cards .standard {
+        padding: 10%;
+        background-color: #252b42;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
     #industry .pricing-cards .standard {
         padding: 10%;
         background-color: #252b42;
@@ -1601,6 +1773,12 @@ header .links .buttons .member span {
         background-color: #252b42;
     }
 }
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    #booking {
+        padding: 5% 5% 25% 5%;
+        background-color: #252b42;
+    }
+}
 
 #booking .branches {
     display: flex;
@@ -1615,12 +1793,27 @@ header .links .buttons .member span {
         justify-content: center;
     }
 }
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    #booking .branches {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+}
 
 #booking .branches .branches-a {
     width: 50%;
     padding-right: 10%;
 }
 @media screen and (max-width: 500px) {
+    #booking .branches .branches-a {
+        padding-top: 10%;
+        width: 85%;
+        padding-right: 0;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
     #booking .branches .branches-a {
         padding-top: 10%;
         width: 85%;
@@ -1645,6 +1838,16 @@ header .links .buttons .member span {
         padding-bottom: 10%;
     }
 }
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    #booking .branches .branches-a h3 {
+        color: #fff;
+        text-transform: capitalize;
+        font-size: 6vw;
+        font-weight: 700;
+        line-height: 10vw;
+        padding-bottom: 10%;
+    }
+}
 
 #booking .branches .branches-a p {
     color: #fff;
@@ -1664,6 +1867,16 @@ header .links .buttons .member span {
         line-height: 7vw;
     }
 }
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    #booking .branches .branches-a p {
+        color: #fff;
+        padding: 2% 0;
+        font-weight: 500;
+        letter-spacing: 0.01vw;
+        font-size: 2.7vw;
+        line-height: 5.5vw;
+    }
+}
 
 #booking .branches .branches-b {
     width: 50%;
@@ -1679,11 +1892,25 @@ header .links .buttons .member span {
         justify-content: center;
     }
 }
+@media screen and (min-width: 501px) and (max-width: 768px) {
+    #booking .branches .branches-b {
+        width: 85%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+}
 
 #booking .branches .branches-b img {
     width: 30vw;
 }
 @media screen and (max-width: 500px) {
+    #booking .branches .branches-b img {
+        padding-top: 10%;
+        width: 80vw;
+    }
+}
+@media screen and (min-width: 501px) and (max-width: 768px) {
     #booking .branches .branches-b img {
         padding-top: 10%;
         width: 80vw;
