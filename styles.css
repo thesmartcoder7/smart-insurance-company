@@ -1379,6 +1379,9 @@ header .links .buttons .member span {
     outline: none;
     border-radius: 0 0.3vw 0.3vw 0;
     padding: 2.8% 6%;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
 }
 @media screen and (max-width: 500px) {
     #industry .subscription form .submit {
