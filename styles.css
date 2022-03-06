@@ -2116,6 +2116,9 @@ header .links .buttons .member span {
     border-radius: 0.5vw;
     outline: none;
     font-size: 0.7vw;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 @media screen and (max-width: 500px) {
     #contact .appointment .booking-form form input {
@@ -2149,6 +2152,9 @@ header .links .buttons .member span {
     outline: none;
     color: rgba(0, 0, 0, 0.5);
     font-size: 0.7vw;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 @media screen and (max-width: 500px) {
     #contact .appointment .booking-form form select {
@@ -2182,6 +2188,9 @@ header .links .buttons .member span {
     color: #fff;
     font-family: "Montserrat", sans-serif;
     font-weight: 500;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
 }
 
 /*-------------- call section styling ---------------*/
